@@ -2,17 +2,14 @@ package com.leonid;
 
 import acm.graphics.GCompound;
 import acm.graphics.GRect;
-
 import java.awt.*;
 
 public class Cigarette extends GCompound {
-    private final double generalWidth;
     private final double generalHeight;
     private final double filterWidth;
     private final double tobaccoWidth;
 
     public Cigarette(double generalWidth, double generalHeight) {
-        this.generalWidth = generalWidth;
         this.generalHeight = generalHeight;
         filterWidth = generalWidth * 0.25;
         tobaccoWidth = generalWidth * 0.75;
